@@ -9,7 +9,7 @@ InitSprite()
 InitSound()
 InitKeyboard()
  
- DataSection     ; ********* a includebinary file bigger .exe but noone can steal stuff :)
+ DataSection     ; ********* a includebinary file bigger .exe
    ball:    IncludeBinary "pongball.bmp"
    paddle1: IncludeBinary "pongpaddle_1.bmp"
    paddle2: IncludeBinary "pongpaddle_2.bmp"
